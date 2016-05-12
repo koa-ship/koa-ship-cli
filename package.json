@@ -1,0 +1,30 @@
+{
+  "name": "koa-ship-cli",
+  "version": "0.0.1",
+  "description": "koa-ship application generator.",
+  "keywords": [
+    "koa-ship",
+    "generator"
+  ],
+  "main": "./lib/index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "bin": {
+    "ship": "./bin/cli.js"
+  },  
+  "scripts": {},
+  "engines": {
+    "node": ">= 4"
+  },
+  "homepage": "https://github.com/koa-ship/koa-ship-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koa-ship/koa-ship-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koa-ship/koa-ship-cli/issues"
+  },
+  "license": "MIT"
+}
