@@ -19,5 +19,8 @@
     "test": "mocha",
     "console": "node repl.js"
   },
+  "engines": {
+    "node": ">= 4"
+  },  
   "license": "MIT"
 }
