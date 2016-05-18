@@ -1,0 +1,22 @@
+{
+  "restartable": "rs",
+  "watch": [
+    "app",
+    "lib",
+    "app.js"
+  ],  
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "tmp",
+    "data"
+  ],
+  "verbose": false,
+  "execMap": {
+  },
+  "events": {
+  },
+  "env": {
+  },
+  "ext": "js json"
+}

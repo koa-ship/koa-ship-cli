@@ -1,0 +1,23 @@
+{
+  "name": "{{projectName}}",
+  "version": "0.0.1",
+  "description": "Another koa-ship application",
+  "dependencies": {
+    "koa-ship": "*",
+    "debug": "*",
+    "node-next": "0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "mocha-clean": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "debug": "DEBUG=* nodemon app.js",
+    "update": "rm -rf node_modules/koa-ship && npm install",
+    "test": "mocha",
+    "console": "node repl.js"
+  },
+  "license": "MIT"
+}
