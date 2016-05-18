@@ -9,7 +9,8 @@
   "main": "./lib/index.js",
   "dependencies": {
     "commander": "^2.9.0",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "keygenerator": "^1.0.4"
   },
   "devDependencies": {
   },
