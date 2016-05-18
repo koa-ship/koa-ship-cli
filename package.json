@@ -1,6 +1,6 @@
 {
   "name": "koa-ship-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "koa-ship application generator.",
   "keywords": [
     "koa-ship",
@@ -12,11 +12,10 @@
     "mkdirp": "^0.5.1",
     "keygenerator": "^1.0.4"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "bin": {
     "ship": "./bin/cli.js"
-  },  
+  },
   "scripts": {},
   "engines": {
     "node": ">= 4"
