@@ -9,10 +9,6 @@ class BaseController extends Controller {
     this.helper('global');
   }
 
-  // after() {
-  //   super.after();
-  // }
-
   currentUser() {
     return this.ctx.passport.user || null;
   }

@@ -4,10 +4,4 @@ node_modules
 .DS_STORE
 .DS_Store
 
-lib-cov
-*.seed
 *.log
-*.out
-*.pid
-
-pids

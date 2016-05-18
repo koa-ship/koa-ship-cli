@@ -7,14 +7,8 @@ module.exports = {
     level: '{{logLevel}}', 
   },
 
-  database: {{dbConfig}},
-  
   assets: {
     minify: {{assetsMinify}},
   },
-
-  session: {
-    dbIndex: 1
-  }
 
 };
