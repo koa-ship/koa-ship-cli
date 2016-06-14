@@ -1,1 +1,5 @@
-error
+<% if (env == 'development') { %>
+  <pre><%= error.stack %></pre>
+<% } else { %>
+  error
+<% } %>
