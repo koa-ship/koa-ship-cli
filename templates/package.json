@@ -17,7 +17,8 @@
     "debug": "DEBUG=* nodemon app.js",
     "update": "rm -rf node_modules/koa-ship && npm install",
     "test": "mocha",
-    "console": "node repl.js"
+    "console": "node app.js --repl",
+    "cli": "node app.js --repl"
   },
   "engines": {
     "node": ">= 4"
