@@ -15,7 +15,7 @@
   "scripts": {
     "start": "node app.js",
     "debug": "DEBUG=* nodemon app.js",
-    "update": "rm -rf node_modules/koa-ship && npm install",
+    "update": "rm -rf node_modules/ks-* && rm -rf node_modules/koa-ship && npm install",
     "test": "mocha",
     "console": "node app.js --repl",
     "cli": "node app.js --repl"
